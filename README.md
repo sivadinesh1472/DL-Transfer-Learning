@@ -223,7 +223,7 @@ def test_model(model, test_loader):
 
     # Print classification report
     print("Name:CH.V.S.DINESH KUMAR")
-    print("Register Number:        ")
+    print("Register Number:212224040055")
     print("Classification Report:")
     print(classification_report(all_labels, all_preds, target_names=train_dataset.classes))
 
