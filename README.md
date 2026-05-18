@@ -44,6 +44,9 @@ Evaluate the model with test accuracy, confusion matrix, classification report, 
 ### Register Number:212224040055
 
 ```python
+from google.colab import drive
+drive.mount('/content/drive')
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
